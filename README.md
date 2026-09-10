@@ -79,7 +79,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [x] Árvore geradora mínima (Prim e Kruskal)
 
 ### Busca
-- [ ] Busca binária
+- [x] Busca binária
 - [ ] Busca em texto (KMP)
 
 ## Licença
