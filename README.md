@@ -20,7 +20,7 @@ Cada módulo segue o mesmo formato:
 sorting/bubble-sort/
   bubble_sort.h      interface
   bubble_sort.c      implementação
-  main.c             demonstração (compila para ./demo)
+  main.c             demonstração executável
   Makefile
   README.md
 ```
@@ -35,7 +35,7 @@ make clean
 make list
 
 cd sorting/bubble-sort
-make            # compila e executa ./demo
+make            # compila e executa a demonstração
 ```
 
 A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
@@ -63,6 +63,9 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [ ] Árvore binária de busca
 - [ ] Árvore AVL
 - [ ] Árvore rubro-negra
+- [ ] Árvore B
+- [ ] Árvore B+
+- [ ] Árvore B*
 - [ ] Trie
 - [ ] Union-Find
 
