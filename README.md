@@ -61,7 +61,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [x] Heap binário / fila de prioridade
 - [x] Tabela hash
 - [x] Árvore binária de busca
-- [ ] Árvore AVL
+- [x] Árvore AVL
 - [ ] Árvore rubro-negra
 - [ ] Árvore B
 - [ ] Árvore B+
