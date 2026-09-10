@@ -7,21 +7,28 @@
 # Alvos:
 #   make        compila e executa a demonstração (main.c)
 #   make run    idem
-#   make clean  remove o binário
+#   make clean  remove o diretório de build
 
 CC     ?= cc
 CFLAGS ?= -std=c11 -Wall -Wextra -Wpedantic -O2
 
-HEADER := $(wildcard $(MODULE).h)
+ifeq ($(OS),Windows_NT)
+    EXE := .exe
+endif
+
+HEADER  := $(wildcard $(MODULE).h)
+BUILD   := _build
+BIN     := $(BUILD)/$(MODULE)$(EXE)
 
 .PHONY: all run clean
 all: run
 
-demo: $(MODULE).c $(HEADER) main.c
-	$(CC) $(CFLAGS) -o demo $(MODULE).c main.c
+$(BIN): $(MODULE).c $(HEADER) main.c
+	@mkdir -p $(BUILD)
+	$(CC) $(CFLAGS) -o $@ $(MODULE).c main.c
 
-run: demo
-	./demo
+run: $(BIN)
+	./$(BIN)
 
 clean:
-	$(RM) demo demo.exe
+	$(RM) -r $(BUILD)

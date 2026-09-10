@@ -1,5 +1,5 @@
 # binários de build
-demo
+_build/
 *.exe
 *.o
 *.out
