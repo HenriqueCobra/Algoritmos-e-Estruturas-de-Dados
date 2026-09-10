@@ -50,7 +50,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [x] Quick sort
 - [x] Heap sort
 - [x] Counting sort
-- [ ] Radix sort
+- [x] Radix sort
 
 ### Estruturas de dados
 - [ ] Lista encadeada
