@@ -72,7 +72,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 ### Grafos
 - [x] Representação (lista e matriz de adjacência)
 - [x] BFS e DFS
-- [ ] Ordenação topológica
+- [x] Ordenação topológica
 - [ ] Dijkstra
 - [ ] Bellman-Ford
 - [ ] Floyd-Warshall
