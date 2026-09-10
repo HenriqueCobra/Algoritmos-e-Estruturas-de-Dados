@@ -64,7 +64,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [x] Árvore AVL
 - [x] Árvore rubro-negra
 - [x] Árvore B
-- [ ] Árvore B+
+- [x] Árvore B+
 - [ ] Árvore B*
 - [x] Trie
 - [x] Union-Find
