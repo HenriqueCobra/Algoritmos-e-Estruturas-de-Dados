@@ -76,7 +76,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [x] Dijkstra
 - [x] Bellman-Ford
 - [x] Floyd-Warshall
-- [ ] Árvore geradora mínima (Prim e Kruskal)
+- [x] Árvore geradora mínima (Prim e Kruskal)
 
 ### Busca
 - [ ] Busca binária
