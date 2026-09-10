@@ -73,7 +73,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [x] Representação (lista e matriz de adjacência)
 - [x] BFS e DFS
 - [x] Ordenação topológica
-- [ ] Dijkstra
+- [x] Dijkstra
 - [ ] Bellman-Ford
 - [ ] Floyd-Warshall
 - [ ] Árvore geradora mínima (Prim e Kruskal)
