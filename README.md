@@ -53,7 +53,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [x] Radix sort
 
 ### Estruturas de dados
-- [ ] Lista encadeada
+- [x] Lista encadeada
 - [ ] Lista duplamente encadeada
 - [ ] Pilha
 - [ ] Fila
