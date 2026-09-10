@@ -54,7 +54,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 
 ### Estruturas de dados
 - [x] Lista encadeada
-- [ ] Lista duplamente encadeada
+- [x] Lista duplamente encadeada
 - [ ] Pilha
 - [ ] Fila
 - [ ] Deque
