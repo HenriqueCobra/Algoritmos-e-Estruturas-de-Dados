@@ -70,7 +70,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [x] Union-Find
 
 ### Grafos
-- [ ] Representação (lista e matriz de adjacência)
+- [x] Representação (lista e matriz de adjacência)
 - [ ] BFS e DFS
 - [ ] Ordenação topológica
 - [ ] Dijkstra
