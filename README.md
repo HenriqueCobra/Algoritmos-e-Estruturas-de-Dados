@@ -47,7 +47,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 - [x] Insertion sort
 - [x] Selection sort
 - [x] Merge sort
-- [ ] Quick sort
+- [x] Quick sort
 - [ ] Heap sort
 - [ ] Counting sort
 - [ ] Radix sort
