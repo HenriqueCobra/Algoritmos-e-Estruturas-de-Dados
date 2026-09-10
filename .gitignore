@@ -1,0 +1,10 @@
+# binários de build
+demo
+*.exe
+*.o
+*.out
+
+# editores
+.vscode/
+.idea/
+*.swp
