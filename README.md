@@ -2,16 +2,22 @@
 
 Implementações em C (padrão C11) de algoritmos e estruturas de dados clássicos.
 Cada tópico fica em um diretório próprio, com a implementação, uma demonstração
-executável e um README explicando a ideia e a complexidade.
+executável (que também roda verificações com `assert`) e um README explicando a
+ideia e a complexidade.
+
+As estruturas mais delicadas — AVL, rubro-negra, árvores B/B+/B\* — expõem uma
+função `*_valida()` que confere as invariantes, exercitada por baterias de
+centenas de milhares de operações aleatórias. Os algoritmos de grafo são
+conferidos contra os exemplos do CLRS.
 
 ## Estrutura
 
 ```
-common/            cabeçalhos e regras de Makefile compartilhados
+common/            regras de Makefile compartilhadas pelos módulos
 sorting/           algoritmos de ordenação
-data-structures/   listas, pilhas, filas, árvores, tabelas hash
+data-structures/   listas, pilhas, filas, heaps, tabelas hash, árvores, tries
 graphs/            representação e algoritmos em grafos
-searching/         algoritmos de busca
+searching/         busca binária e busca em texto
 ```
 
 Cada módulo segue o mesmo formato:
@@ -80,7 +86,7 @@ A CI compila tudo com `-Wall -Wextra -Wpedantic` a cada push.
 
 ### Busca
 - [x] Busca binária
-- [ ] Busca em texto (KMP)
+- [x] Busca em texto (KMP)
 
 ## Licença
 
